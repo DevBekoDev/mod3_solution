@@ -1,0 +1,157 @@
+* {
+	font-family: cursivel
+}
+.navbar {
+	background-color: purple;
+	height: 200px;
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+header {
+	background-color: purple;
+	width: 100%;
+	height: 200px;
+	top:0;
+	left: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	float: right;
+	padding:10px;
+}
+a{
+	color: #fff;
+	text-decoration:none;
+}
+.nav-brand{
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	position: absolute;
+	text-align: left;
+	font-size: 55px;
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-right:0px; 
+	color: white;
+
+}
+
+.button {
+	
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar-header button.navbar-toggle, navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+#chicken, #beef, #sushi{
+	background-color: gray;
+	padding: 40px;
+	margin: 20px 20px; 
+}
+ h2 {
+ 	text-align: center;
+ 	padding-bottom: 5px;
+ }
+
+ h1{
+ 	padding-bottom: 20px;
+ }
+/*
+.nav {
+	position: relative;
+	text-align: right;
+	float: right;
+}
+
+label {
+	text-align: right;
+	font-size: 16px;
+	line-height: 70px;
+	margin: 0 40px 20 0;
+	display: none;
+}
+
+#toggle{
+	display: none;
+}
+*/
+nav a{
+	width: 50%;
+	text-align: center;
+	margin:0 20;
+	font-weight: bolder;
+	width:40%;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+#menu-icon {
+	display:hidden;
+	display: none;
+	
+}
+
+nav div {
+	width: 50%;
+	padding: 10px;
+	float: right;
+}
+
+@media (max-width: 830px){
+	.nav-brand{
+		font-size: 24px;
+		font-weight: bolder;
+	}
+
+	nav a{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	margin:0 20;
+	width:40%;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+	#menu-icon{
+		display: inline-block;
+		border: 1px bold black;
+		width: 32px;
+		height: 32px;
+		float: right;
+		padding:0px;
+		margin:0px;
+
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		
+		padding :20px;
+		background-color: #c5c5;
+	}
+
+	nav:hover ul{
+		display: block;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding:15px 0;
+		margin:0;
+	}
+}
